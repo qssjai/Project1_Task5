@@ -1,4 +1,3 @@
-#pragma once
 #include <iostream>
 #include <compare>
 
@@ -11,7 +10,7 @@ public:
     Card(int r = 1, int s = 0) : rank(r), suit(s) {}
 
     auto operator<=>(const Card& other) const noexcept {
-        return rank <=> other.rank; // порівнюємо тільки за рангом
+        return rank <=> other.rank; // ГЇГ®Г°ВіГўГ­ГѕВєГ¬Г® ГІВіГ«ГјГЄГЁ Г§Г  Г°Г Г­ГЈГ®Г¬
     }
 
     bool operator==(const Card& other) const noexcept {
