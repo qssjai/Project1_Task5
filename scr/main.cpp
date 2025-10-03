@@ -1,3 +1,4 @@
+// Compiler: Microsoft Visual Studio 2022 (MSVC), Standard: C++20
 #include "card.h"
 #include "deckdealer.h"
 #include "utils.h"
