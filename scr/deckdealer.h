@@ -1,4 +1,3 @@
-#pragma once
 #include "card.h"
 #include <vector>
 #include <random>
